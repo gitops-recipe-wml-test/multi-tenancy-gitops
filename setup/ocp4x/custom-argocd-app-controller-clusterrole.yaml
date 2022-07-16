@@ -378,6 +378,12 @@ rules:
       - wos.cpd.ibm.com
     resources:
       - woservices
+    - verbs:
+      - '*'
+    apiGroups:
+      - wml.cpd.ibm.com
+    resources:
+      - wmlbases
   - verbs:
       - '*'
     apiGroups:
